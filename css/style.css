@@ -316,14 +316,10 @@ margin-right: 24px;
   margin-bottom: 72px;
 }
 
-/* .footer-inf {
-  display: inline-block;
-  width: 300px;
-  height: 72px;
-  margin-left: 56px;
-  margin-top:100px;
-  margin-bottom: 100px;
-} */
+.footer-inf {
+  padding-left: 156px;
+  margin-right: 1020px;
+}
 
 .nav-list-portfolio {
   display:flex;
