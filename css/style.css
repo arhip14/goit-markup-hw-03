@@ -243,7 +243,7 @@ body {
   padding-bottom: 32px;
 } */
 .team-worker {
-  padding-top: 32px;
+  padding: 32px 16px;
 }
 .team-descr {
   /* margin-top: 32px; */
