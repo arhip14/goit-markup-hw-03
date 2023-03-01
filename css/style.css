@@ -151,6 +151,9 @@ body {
   flex-direction: row;
   align-items: flex-start;
 }
+/* .btn:active {
+  color: var(--btn-hero-color);
+} */
 .btn:hover,
 .btn:focus {
   color: var(--btn-hero-color);
@@ -168,6 +171,7 @@ body {
   color: var(--logo-color);
   background-color: var(--teaam-section-color);
   padding: 12px 24px;
+  border: 1px solid #E7E9FC;
 }
 .nav-item-btn:not(:last-child) {
 
