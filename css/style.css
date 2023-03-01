@@ -242,9 +242,12 @@ body {
   padding-top: 8px;
   padding-bottom: 32px;
 } */
-.team-descr {
+.team-worker {
   padding-top: 32px;
-  /* padding-bottom:8px ; */
+}
+.team-descr {
+  /* margin-top: 32px; */
+  margin-bottom:8px ;
 }
 
 .hero {
@@ -356,5 +359,5 @@ margin-right: 24px;
   padding-bottom: 120px;
 }
 .portfolio-descr {
- padding-bottom: 8px;
+ margin-bottom: 8px;
 }
