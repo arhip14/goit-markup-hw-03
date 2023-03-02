@@ -1,13 +1,14 @@
 ul,li {
-  margin: 0;
-  padding-left: 0;
+ margin: 0;
+ padding: 0;
 }
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -73,6 +74,8 @@ body {
 .contacts-item > .contacts-link {
   text-decoration: none;
   color: var(--primary-text-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .contacts-link:hover,
 .contacts-link:focus {
@@ -83,10 +86,6 @@ body {
   border-top:none;
   padding: 32px 16px;
 } */
-.contacts-item> .contacts-link {
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
 .contacts-list {
   display: flex;
   list-style: none;
@@ -130,25 +129,25 @@ body {
   color: var(--logo-color);
 }
 .footer-descr {
-  margin-top: 16px;
+  /* margin-top: 16px; */
   color: var(--footer-text-color);
   width:262px;
 }
 
 /* BUTTON */
 .btn {
-  font-family: "Roboto", inherit;
-  font-style: normal;
+  /* font-family: "Roboto", inherit; */
+  /* font-style: normal; */
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   cursor: pointer;
-  border: none;
+  /* border: none; */
   border-radius: 4px;
-  margin: 0 auto;
+  /* margin: 0 auto;
   display: block;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: flex-start; */
 }
 /* .btn:active {
   color: var(--btn-hero-color);
@@ -157,13 +156,15 @@ body {
 .btn:focus {
   color: var(--btn-hero-color);
   background-color: var(--btn--hover--color);
-  border:var(--btn--hover--color)
+  border:var(--btn--hover--color);
+  border-color: var(--btn--hover--color)
 }
 
 .main-btn {
   color: var(--btn-hero-color);
   background-color: var(--logo-color);
   padding: 16px 32px;
+  border:none;
 }
 
 .secondary-btn {
@@ -219,22 +220,24 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
+  margin-bottom: 72px;
 }
 .img-list {
-  padding-bottom: 116px;
+  padding-bottom: 120px;
 }
 .descr {
   color: var(--secondary-text-color);
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  margin-bottom: 8px;
 }
 .sub-descr {
   margin-top: 8px;
   /* padding-top:8px; */
-  padding-bottom: 32px; 
+  /* padding-bottom: 32px;  */
   font-style: normal;
   font-weight: 400;
 }
@@ -281,7 +284,7 @@ margin-right: 24px;
 } */
 .footer {
   background-color: var(--secondary-text-color);
-  margin-top: 4px;
+  /* margin-top: 4px; */
   padding-top: 100px;
   padding-bottom: 100px;
   /* padding-left: 156px;
@@ -305,9 +308,6 @@ margin-right: 24px;
 } */
 .advantages-descr {
   margin-bottom: 8px;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
 }
 .example-pictures {
   display: flex;
@@ -320,13 +320,13 @@ margin-right: 24px;
   margin-bottom: 120px;
   gap: 24px;
 } */
-.example-title {
+/* .example-title {
   text-align: center;
   margin-bottom: 72px;
-}
-.footer-inf {
+} */
+/* .footer-inf {
   margin-left: 156px;
-}
+} */
 /* .footer-inf {
   padding-top: 100px;
   padding-left: 156px;
@@ -365,6 +365,6 @@ margin-right: 24px;
   padding-top: 96px;
   padding-bottom: 120px;
 }
-.portfolio-descr {
+/* .portfolio-descr {
  margin-bottom: 8px;
-}
+} */
