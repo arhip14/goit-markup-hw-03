@@ -139,7 +139,6 @@ body {
 .btn:focus {
   color: var(--btn-hero-color);
   background-color: var(--btn--hover--color);
-  border:var(--btn--hover--color);
   border-color: var(--btn--hover--color)
 }
 
@@ -218,7 +217,6 @@ body {
   margin-bottom: 8px;
 }
 .sub-descr {
-  margin-top: 8px;
   font-style: normal;
   font-weight: 400;
 }
@@ -228,6 +226,12 @@ body {
 }
 .team-descr {
   margin-bottom:8px ;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+
 }
 
 .hero {
@@ -240,10 +244,10 @@ body {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.team-title {
+/* .team-title {
   text-align: center;
   margin-bottom: 72px;
-}
+} */
 
 .team-list {
   display: flex;
@@ -274,6 +278,12 @@ body {
 
 .advantages-descr {
   margin-bottom: 8px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color:var(--secondary-text-color)
 }
 .example-pictures {
   display: flex;
